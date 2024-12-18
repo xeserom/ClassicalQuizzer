@@ -17,10 +17,9 @@ type AudioPlayerProps = {
   url: string;
   playat: [number, number];
   style?: StyleProp<ViewStyle>;
-  disabled: boolean;
 };
 
-const AudioPlayer = ({ url, playat, style, disabled }: AudioPlayerProps) => {
+const AudioPlayer = ({ url, playat, style }: AudioPlayerProps) => {
   const [sound, setSound] = useState<Audio.Sound | null>(null);
   const [isPlaying, setIsPlaying] = useState(false);
   const [fart, setFart] = useState(false);
@@ -127,7 +126,6 @@ const AudioPlayer = ({ url, playat, style, disabled }: AudioPlayerProps) => {
 
   return (
     <Pressable
-      disabled={disabled}
       onPress={() => {
         setIsPlaying(!isPlaying);
         playAudio();

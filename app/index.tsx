@@ -149,7 +149,6 @@ type ChoicesComponentProps = {
   rotationValues: Animated.Value[];
   onGuess: (index: number) => void;
   foobar: React.ReactNode[];
-  disabled: boolean;
 };
 
 const ChoicesComponent = (props: ChoicesComponentProps) => {
@@ -491,7 +490,7 @@ function Credits({onPress}: {onPress: () => void}) {
         </View>
 
         <View style={{ width: '100%'}}>
-          <AudioPlayer url={item.url} playat={item.playat} disabled={false} />
+          <AudioPlayer url={item.url} playat={item.playat} />
         </View>
 
       </View>
@@ -543,6 +542,22 @@ function SwapView({view1, view2, swap = false}: SwapView) {
   return currentView;
 }
 
+const detectAppleDevice = () => {
+  if (typeof navigator !== "undefined") {
+    const userAgent = navigator.userAgent || "";
+    const platform = navigator.platform || "";
+
+    // Check for iPhone, iPad, or Mac
+    const isIPhone = /iPhone/.test(userAgent);
+    const isIPad = /iPad/.test(userAgent) || (platform === "MacIntel" && navigator.maxTouchPoints > 1);
+    const isMac = /Mac/.test(platform) && !isIPad;
+
+    return isIPhone || isIPad || isMac;
+  }
+
+  return false;
+};
+
 export default function Game() {
   const [loadedState, setLoadedState] = useState<{answers: Piece[], choices: Piece[]}>({
     answers: [],
@@ -550,12 +565,7 @@ export default function Game() {
   });
 
   const fetchChoices = () => {
-    if (loadedState.answers.length === pieces.length) {
-      setLoadedState({
-        answers: [],
-        choices: [],
-      });
-    }
+
 
     const choices: Piece[] = [];
     
@@ -564,7 +574,7 @@ export default function Game() {
     const answer = availableAnswers[answerIndex];
 
     choices.push(answer);
-
+    
     // Easy
     for (let i = 0; i < 3; i++) {
       let availableChoices = pieces.filter(piece => !choices.map(piece2 => piece2.composerName === piece.composerName).includes(true));
@@ -599,8 +609,8 @@ export default function Game() {
 
   const flipAll = async (): Promise<void> => {
     return new Promise((resolve) => 
-      Animated.sequence([
-        Animated.delay(300),
+      Animated.parallel([
+        // Animated.delay(300),
         Animated.timing(rotationValues[0], {
           toValue: 1,
           duration: 300,
@@ -666,7 +676,7 @@ export default function Game() {
     const choices = fetchChoices();
 
     setLoadedState({
-      answers: [...loadedState.answers, choices.answer],
+      answers: loadedState.answers.length === pieces.length - 1 ? [choices.answer] : [...loadedState.answers, choices.answer],
       choices: choices.choices,
     })
 
@@ -680,10 +690,10 @@ export default function Game() {
     ));
   };
 
-  const [disabled, setDisabled] = useState(false);
+  const [disabled, setDisabled] = useState(true);
   const [correctCount, setCorrectCount] = useState(0);
   const [incorrectCount, setIncorrectCount] = useState(0);
-
+   
   const onGuess = (index: number) => {
     if (checkAnswer(loadedState, index)) {
       setCorrectCount(correctCount + 1);
@@ -719,58 +729,84 @@ export default function Game() {
   return (
     <SafeAreaView style={styles.container}>
 
+        {!detectAppleDevice() ? <></> : 
+          <View 
+            style={{
+              paddingVertical: 10,
+              width: '100%',
+              backgroundColor: '#fff3f3',
+              borderRadius: 10,
+              borderWidth: 1,
+              borderColor: '#ff0202',
+              justifyContent: 'center',
+              alignItems: 'center',
+              zIndex: 2,
+            }}>
+              <Text style={{color: '#ff0202', fontWeight: 'bold'}}>
+                Warning:
+              </Text>
+              <Text style={{color: '#ff0202', textAlign: 'center'}}>
+                This website does not support Apple devices.
+              </Text>
+          </View> 
+        }
+
+      <View 
+        style={{
+          width: '100%', 
+          height: '100%', 
+          backgroundColor: 'red', 
+          opacity: 0.0,
+          position: 'absolute', 
+          zIndex: disabled ? 1 : -1,
+        }}
+      />
+
       <Modal 
         visible={isModalVisible}
         duration={500}
         onFinished={loadState}
       >
         
+        
+        
         <SwapView
           swap={isSwapped}
-          view1={<View 
-            style={{
-              justifyContent: 'center', 
-              alignItems: 'center',
-              backgroundColor: 'white', 
-              borderRadius: 10, 
-              borderWidth: 1,
-              width: '75%',
-              paddingVertical: 20,
-              maxHeight: 400,
-              maxWidth: 400,
-              gap: 5,
-            }}>
-            <Text style={{fontWeight: 'bold', fontSize: 32}}>Clip Quiz</Text>
-            <Text style={{fontSize: 20, marginBottom: 25, width: '75%', textAlign: 'center'}}>
-              Guess the composer from an audio clip.
-            </Text>
-            <Button title='Play' onPress={() => setIsModalVisible(false)}/>
-            <Button title='Credits' onPress={handleSwap}/>
-          </View>}
-          view2={<Animated.View 
-            style={{
-              backgroundColor: 'white',
-              borderRadius: 10,
-              borderWidth: 1,
-              width: '75%',
-              height: '75%',
-            }}>
-            <Credits onPress={handleSwap}/>
-          </Animated.View>}
+          view1={
+            <View 
+              style={{
+                justifyContent: 'center', 
+                alignItems: 'center',
+                backgroundColor: 'white', 
+                borderRadius: 10, 
+                borderWidth: 1,
+                width: '75%',
+                paddingVertical: 20,
+                maxHeight: 400,
+                maxWidth: 400,
+                gap: 5,
+              }}>
+              <Text style={{fontWeight: 'bold', fontSize: 32}}>Clip Quiz</Text>
+              <Text style={{fontSize: 20, marginBottom: 25, width: '75%', textAlign: 'center'}}>
+                Guess the composer from an audio clip.
+              </Text>
+              <Button title='Play' onPress={() => setIsModalVisible(false)}/>
+              {/* <Button title='Credits' onPress={handleSwap}/> */}
+            </View>
+          }
+          view2={
+            <Animated.View 
+              style={{
+                backgroundColor: 'white',
+                borderRadius: 10,
+                borderWidth: 1,
+                width: '75%',
+                height: '75%',
+              }}>
+              <Credits onPress={handleSwap}/>
+            </Animated.View>
+          }
         />
-
-        
-
-        {/* <Animated.View 
-          style={{
-            backgroundColor: 'white',
-            borderRadius: 10,
-            borderWidth: 1,
-            width: '75%',
-            height: '75%',
-          }}>
-          <Credits/>
-        </Animated.View> */}
 
       </Modal>
 
@@ -779,7 +815,6 @@ export default function Game() {
         onGuess={onGuess}
         rotationValues={rotationValues}
         foobar={foobar}
-        disabled={disabled}
       />
 
       <PreviousAnswerComponent 
@@ -792,7 +827,6 @@ export default function Game() {
       />
 
       <AudioPlayer
-        disabled={disabled}
         url={loadedState.answers.length > 0 ? loadedState.answers[loadedState.answers.length - 1].url : ''}
         playat={loadedState.answers.length > 0 ? [
           loadedState.answers[loadedState.answers.length - 1].playat[0][0],
