@@ -1,0 +1,824 @@
+[
+  {
+    "name": "Wolfgang Amadeus Mozart",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/cc/Mozart_Portrait_Croce.jpg/200px-Mozart_Portrait_Croce.jpg",
+    "pieces": [
+      {
+        "name": "Eine kleine Nachtmusik\nMvmt 1 Allegro",
+        "wiki": "https://en.wikipedia.org/wiki/Eine_kleine_Nachtmusik",
+        "filename": "Mozart_-_Eine_kleine_Nachtmusik_-_1._Allegro.ogg",
+        "url": "https://upload.wikimedia.org/wikipedia/commons/2/24/Mozart_-_Eine_kleine_Nachtmusik_-_1._Allegro.ogg",
+        "playat": [ [0, 7500] ],
+        "credit":
+          {
+            "file": [
+              "Mozart - Eine kleine Nachtmusik - 1. Allegro",
+              "https://commons.wikimedia.org/wiki/File:Mozart_-_Eine_kleine_Nachtmusik_-_1._Allegro.ogg"
+            ],
+            "license": [
+              "CC BY-SA 2.0",
+              "https://creativecommons.org/licenses/by-sa/2.0"
+            ]
+          }
+      },
+      {
+        "name": "Queen of the Night aria",
+        "wiki": "https://en.wikipedia.org/wiki/Queen_of_the_Night_aria",
+        "filename": "Der_Hoelle_Rache.ogg",
+        "url": "https://upload.wikimedia.org/wikipedia/commons/7/7d/Der_Hoelle_Rache.ogg",
+        "playat": [ [40000, 52000] ],
+        "credit":
+          {
+            "file": [
+              "Der Hoelle Rache",
+              "https://commons.wikimedia.org/wiki/File:Der_Hoelle_Rache.ogg"
+            ],
+            "license": [
+              "CC BY 2.5",
+              "https://creativecommons.org/licenses/by/2.5"
+            ]
+          }
+      }
+    ]
+  },
+  {
+    "name": "Antonio Vivaldi",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/bd/Vivaldi.jpg/200px-Vivaldi.jpg",
+    "pieces": [
+      {
+        "name": "The Four Seasons\nWinter\nMvmt 1 Allegro non molto",
+        "wiki": "https://en.wikipedia.org/wiki/The_Four_Seasons_(Vivaldi)",
+        "filename": "Vivaldi_Winter_mvt_1_Allegro_non_molto_-_The_USAF_Concert.ogg",
+        "url": "https://upload.wikimedia.org/wikipedia/commons/0/04/Vivaldi_Winter_mvt_1_Allegro_non_molto_-_The_USAF_Concert.ogg",
+        "playat": [ [65000, 76200] ],
+        "credit":
+          {
+            "file": [
+              "Vivaldi Winter mvt 1 Allegro non molto - The USAF Concert",
+              "https://commons.wikimedia.org/wiki/File:Vivaldi_Winter_mvt_1_Allegro_non_molto_-_The_USAF_Concert.ogg"
+            ],
+            "license": [
+              "Public domain",
+              ""
+            ]
+          }
+      },
+      {
+        "name": "The Four Seasons\nWinter\nMvmt 2 Largo",
+        "wiki": "https://en.wikipedia.org/wiki/The_Four_Seasons_(Vivaldi)",
+        "filename": "11_-_Vivaldi_Winter_mvt_2_Largo_-_John_Harrison_violin.ogg",
+        "url": "https://upload.wikimedia.org/wikipedia/commons/b/b1/11_-_Vivaldi_Winter_mvt_2_Largo_-_John_Harrison_violin.ogg",
+        "playat": [ [1000, 15000] ],
+        "credit":
+          {
+            "file": [
+              "11 - Vivaldi Winter mvt 2 Largo - John Harrison violin",
+              "https://commons.wikimedia.org/wiki/File:11_-_Vivaldi_Winter_mvt_2_Largo_-_John_Harrison_violin.ogg"
+            ],
+            "license": [
+              "CC BY-SA",
+              "https://creativecommons.org/licenses/by-sa/4.0"
+            ]
+          }
+      },
+      {
+        "name": "The Four Seasons\nWinter\nMvmt 3 Allegro",
+        "wiki": "https://en.wikipedia.org/wiki/The_Four_Seasons_(Vivaldi)",
+        "filename": "12_-_Vivaldi_Winter_mvt_3_Allegro_-_John_Harrison_violin.ogg",
+        "url": "https://upload.wikimedia.org/wikipedia/commons/2/21/12_-_Vivaldi_Winter_mvt_3_Allegro_-_John_Harrison_violin.ogg",
+        "playat": [ [1400, 8000] ],
+        "credit":
+          {
+            "file": [
+              "12 - Vivaldi Winter mvt 3 Allegro - John Harrison violin",
+              "https://commons.wikimedia.org/wiki/File:12_-_Vivaldi_Winter_mvt_3_Allegro_-_John_Harrison_violin.ogg"
+            ],
+            "license": [
+              "CC BY-SA",
+              "https://creativecommons.org/licenses/by-sa/4.0"
+            ]
+          }
+      },
+      {
+        "name": "The Four Seasons\nAutumn\nMvmt 1 Allegro",
+        "wiki": "https://en.wikipedia.org/wiki/The_Four_Seasons_(Vivaldi)",
+        "filename": "07_-_Vivaldi_Autumn_mvt_1_Allegro_-_John_Harrison_violin.ogg",
+        "url": "https://upload.wikimedia.org/wikipedia/commons/0/0f/Vivaldi_-_Four_Seasons_3_Autumn_mvt_1_Allegro_-_John_Harrison_violin.oga",
+        "playat": [ [0, 6500] ],
+        "credit":
+          {
+            "file": [
+              "Vivaldi - Four Seasons 3 Autumn mvt 1 Allegro - John Harrison violin",
+              "https://commons.wikimedia.org/wiki/File:Vivaldi_-_Four_Seasons_3_Autumn_mvt_1_Allegro_-_John_Harrison_violin.oga"
+            ],
+            "license": [
+              "CC BY-SA",
+              "https://creativecommons.org/licenses/by-sa/4.0"
+            ]
+          }
+      },
+      {
+        "name": "The Four Seasons\nAutumn\nMvmt 3 Allegro",
+        "wiki": "https://en.wikipedia.org/wiki/The_Four_Seasons_(Vivaldi)",
+        "filename": "09_-_Vivaldi_Autumn_mvt_3_Allegro_-_John_Harrison_violin.ogg",
+        "url": "https://upload.wikimedia.org/wikipedia/commons/c/cf/Vivaldi_-_Four_Seasons_3_Autumn_mvt_3_Allegro_-_John_Harrison_violin.oga",
+        "playat": [ [0, 11000] ],
+        "credit":
+          {
+            "file": [
+              "Vivaldi - Four Seasons 3 Autumn mvt 3 Allegro - John Harrison violin",
+              "https://commons.wikimedia.org/wiki/File:Vivaldi_-_Four_Seasons_3_Autumn_mvt_3_Allegro_-_John_Harrison_violin.oga"
+            ],
+            "license": [
+              "CC BY-SA",
+              "https://creativecommons.org/licenses/by-sa/4.0"
+            ]
+          }
+      },
+      {
+        "name": "The Four Seasons\nSummer\nMvmt 3 Presto",
+        "wiki": "https://en.wikipedia.org/wiki/The_Four_Seasons_(Vivaldi)",
+        "filename": "06_-_Vivaldi_Summer_mvt_3_Presto_-_John_Harrison_violin.ogg",
+        "url": "https://upload.wikimedia.org/wikipedia/commons/f/fa/Vivaldi_-_Four_Seasons_2_Summer_mvt_3_Presto_-_John_Harrison_violin.oga",
+        "playat": [ [0, 6000] ],
+        "credit":
+          {
+            "file": [
+              "Vivaldi - Four Seasons 2 Summer mvt 3 Presto - John Harrison violin",
+              "https://commons.wikimedia.org/wiki/File:Vivaldi_-_Four_Seasons_2_Summer_mvt_3_Presto_-_John_Harrison_violin.oga"
+            ],
+            "license": [
+              "CC BY-SA",
+              "https://creativecommons.org/licenses/by-sa/4.0"
+            ]
+          }
+      },
+      {
+        "name": "The Four Seasons\nSpring\nMvmt 1 Allegro",
+        "wiki": "https://en.wikipedia.org/wiki/The_Four_Seasons_(Vivaldi)",
+        "filename": "Vivaldi_-_Four_Seasons_1_Spring_mvt_1_Allegro_-_John_Harrison_violin.oga",
+        "url": "https://upload.wikimedia.org/wikipedia/commons/f/ff/Vivaldi_-_Four_Seasons_1_Spring_mvt_1_Allegro_-_John_Harrison_violin.oga",
+        "playat": [ [0, 8000] ],
+        "credit":
+          {
+            "file": [
+              "Vivaldi - Four Seasons 1 Spring mvt 1 Allegro - John Harrison violin",
+              "https://commons.wikimedia.org/wiki/File:Vivaldi_-_Four_Seasons_1_Spring_mvt_1_Allegro_-_John_Harrison_violin.oga"
+            ],
+            "license": [
+              "CC BY-SA",
+              "https://creativecommons.org/licenses/by-sa/4.0"
+            ]
+          }
+      }
+    ]
+  },
+  {
+    "name": "Modest Mussorgsky",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/db/Modest_Musorgskiy%2C_1870.jpg/200px-Modest_Musorgskiy%2C_1870.jpg",
+    "pieces": [
+      {
+        "name": "Night on Bald Mountain",
+        "wiki": "https://en.wikipedia.org/wiki/Night_on_Bald_Mountain",
+        "filename": "Modest_Mussorgsky_-_night_on_bald_mountain.ogg",
+        "url": "https://upload.wikimedia.org/wikipedia/commons/c/ca/Modest_Mussorgsky_-_night_on_bald_mountain.ogg",
+        "playat": [ [16000, 27000] ],
+        "credit":
+          {
+            "file": [
+              "Modest Mussorgsky - night on bald mountain",
+              "https://commons.wikimedia.org/wiki/File:Modest_Mussorgsky_-_night_on_bald_mountain.ogg"
+            ],
+            "license": [
+              "Public domain",
+              ""
+            ]
+          }
+      }
+    ]
+  },
+  {
+    "name": "Edvard Grieg",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/50/Edvard_Grieg_portrait_%28cropped%29.jpg/200px-Edvard_Grieg_portrait_%28cropped%29.jpg",
+    "pieces": [
+      {
+        "name": "In the Hall of the Mountain King",
+        "wiki": "https://en.wikipedia.org/wiki/In_the_Hall_of_the_Mountain_King",
+        "filename": "Musopen_-_In_the_Hall_Of_The_Mountain_King.ogg",
+        "url": "https://upload.wikimedia.org/wikipedia/commons/b/bb/Musopen_-_In_the_Hall_Of_The_Mountain_King.ogg",
+        "playat": [ [103000, 113000] ],
+        "credit":
+          {
+            "file": [
+              "Musopen - In the Hall Of The Mountain King",
+              "https://commons.wikimedia.org/wiki/File:Musopen_-_In_the_Hall_Of_The_Mountain_King.ogg"
+            ],
+            "license": [
+              "Public domain",
+              ""
+            ]
+          }
+      },
+      {
+        "name": "Morning Mood",
+        "wiki": "https://en.wikipedia.org/wiki/Morning_Mood",
+        "filename": "Grieg_-_Peer_Gynt_Suite_No._1,_Op._46_-_I._Morning_Mood_(Musopen_Symphony).flac",
+        "url": "https://upload.wikimedia.org/wikipedia/commons/c/c2/Grieg_-_Peer_Gynt_Suite_No._1%2C_Op._46_-_I._Morning_Mood_%28Musopen_Symphony%29.flac",
+        "playat": [ [0, 8600] ],
+        "credit":
+          {
+            "file": [
+              "Grieg - Peer Gynt Suite No. 1, Op. 46 - I. Morning Mood (Musopen Symphony)",
+              "https://commons.wikimedia.org/wiki/File:Grieg_-_Peer_Gynt_Suite_No._1,_Op._46_-_I._Morning_Mood_(Musopen_Symphony).flac"
+            ],
+            "license": [
+              "Public domain",
+              ""
+            ]
+          }
+      }
+    ]
+  },
+  {
+    "name": "Camille Saint-Saëns",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/98/Saint-Sa%C3%ABns-circa-1880.jpg/200px-Saint-Sa%C3%ABns-circa-1880.jpg",
+    "pieces": [
+      {
+        "name": "Danse Macabre",
+        "wiki": "https://en.wikipedia.org/wiki/Danse_Macabre",
+        "filename": "Saint-Saëns_-_Danse_macabre_(Fourestier,_1953).flac",
+        "url": "https://upload.wikimedia.org/wikipedia/commons/8/8b/Saint-Sa%C3%ABns_-_Danse_macabre_%28Fourestier%2C_1953%29.flac",
+        "playat": [ [48000, 63000] ],
+        "credit":
+          {
+            "file": [
+              "Saint-Saëns - Danse macabre (Fourestier, 1953)",
+              "https://commons.wikimedia.org/wiki/File:Saint-Sa%C3%ABns_-_Danse_macabre_(Fourestier,_1953).flac"
+            ],
+            "license": [
+              "Public domain",
+              ""
+            ]
+          }
+      },
+      {
+        "name": "The Carnival of Animals\nThe Swan",
+        "wiki": "https://en.wikipedia.org/wiki/Le_cygne",
+        "filename": "Saint-Saens_-_The_Carnival_of_the_Animals_-_13_Le_cygne.ogg",
+        "url": "https://upload.wikimedia.org/wikipedia/commons/d/d8/Saint-Saens_-_The_Carnival_of_the_Animals_-_13_Le_cygne.ogg",
+        "playat": [ [7000, 18000] ],
+        "credit":
+          {
+            "file": [
+              "Saint-Saens - The Carnival of the Animals - 13 Le cygne",
+              "https://commons.wikimedia.org/wiki/File:Saint-Saens_-_The_Carnival_of_the_Animals_-_13_Le_cygne.ogg"
+            ],
+            "license": [
+              "CC BY-SA 2.0",
+              "https://creativecommons.org/licenses/by-sa/2.0"
+            ]
+          }
+      },
+      {
+        "name": "The Carnival of Animals\nAquarium",
+        "wiki": "https://en.wikipedia.org/wiki/The_Carnival_of_the_Animals",
+        "filename": "Saint-Saens_-_The_Carnival_of_the_Animals_-_07_Aquarium.ogg",
+        "url": "https://upload.wikimedia.org/wikipedia/commons/c/c2/Saint-Saens_-_The_Carnival_of_the_Animals_-_07_Aquarium.ogg",
+        "playat": [ [0, 7000] ],
+        "credit":
+          {
+            "file": [
+              "Saint-Saens - The Carnival of the Animals - 07 Aquarium",
+              "https://commons.wikimedia.org/wiki/File:Saint-Saens_-_The_Carnival_of_the_Animals_-_07_Aquarium.ogg"
+            ],
+            "license": [
+              "CC BY-SA 2.0",
+              "https://creativecommons.org/licenses/by-sa/2.0"
+            ]
+          }
+      }
+    ]
+  },
+  {
+    "name": "Ludwig van Beethoven",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6e/Joseph_Karl_Stieler%27s_Beethoven_mit_dem_Manuskript_der_Missa_solemnis.jpg/200px-Joseph_Karl_Stieler%27s_Beethoven_mit_dem_Manuskript_der_Missa_solemnis.jpg",
+    "pieces": [
+      {
+        "name": "Moonlight Sonata",
+        "wiki": "https://en.wikipedia.org/wiki/Piano_Sonata_No._14_(Beethoven)",
+        "filename": "Beethoven_Moonlight_1st_movement.ogg",
+        "url": "https://upload.wikimedia.org/wikipedia/commons/e/eb/Beethoven_Moonlight_1st_movement.ogg",
+        "playat": [ [6000, 20500] ],
+        "credit":
+          {
+            "file": [
+              "Beethoven Moonlight 1st movement",
+              "https://commons.wikimedia.org/wiki/File:Beethoven_Moonlight_1st_movement.ogg"
+            ],
+            "license": [
+              "CC BY-SA 2.0 de",
+              "https://creativecommons.org/licenses/by-sa/2.0/de/deed.en"
+            ]
+          }
+      },
+      {
+        "name": "Für Elise",
+        "wiki": "https://en.wikipedia.org/wiki/F%C3%BCr_Elise",
+        "filename": "Fur_Elise.ogg",
+        "url": "https://upload.wikimedia.org/wikipedia/commons/8/8f/Fur_Elise.ogg",
+        "playat": [ [0, 8000] ],
+        "credit":
+          {
+            "file": [
+              "Fur Elise",
+              "https://commons.wikimedia.org/wiki/File:Fur_Elise.ogg"
+            ],
+            "license": [
+              "CC BY-SA 3.0",
+              "https://creativecommons.org/licenses/by-sa/3.0"
+            ]
+          }
+      },
+      {
+        "name": "Symphony No 7\nMvmt 2 Allegretto",
+        "wiki": "https://en.wikipedia.org/wiki/Symphony_No._7_(Beethoven)",
+        "filename": "JOHN_MICHEL_CELLO-BEETHOVEN_SYMPHONY_7_Allegretto.ogg",
+        "url": "https://upload.wikimedia.org/wikipedia/commons/0/0c/JOHN_MICHEL_CELLO-BEETHOVEN_SYMPHONY_7_Allegretto.ogg",
+        "playat": [ [65000, 83000] ],
+        "credit":
+          {
+            "file": [
+              "JOHN MICHEL CELLO-BEETHOVEN SYMPHONY 7 Allegretto",
+              "https://commons.wikimedia.org/wiki/File:JOHN_MICHEL_CELLO-BEETHOVEN_SYMPHONY_7_Allegretto.ogg"
+            ],
+            "license": [
+              "CC BY-SA 3.0",
+              "https://creativecommons.org/licenses/by-sa/3.0"
+            ]
+          }
+      },
+      {
+        "name": "Ode to Joy\nSymphony No 9\nMvmt 2 Molto vivace",
+        "wiki": "https://en.wikipedia.org/wiki/Symphony_No._9_(Beethoven)",
+        "filename": "02_Horenstein_9._Beethoven_Pantheon_XP_2250_-_2._Satz.flac",
+        "url": "https://upload.wikimedia.org/wikipedia/commons/2/26/02_Horenstein_9._Beethoven_Pantheon_XP_2250_-_2._Satz.flac",
+        "playat": [ [0, 8000] ],
+        "credit":
+          {
+            "file": [
+              "02 Horenstein 9. Beethoven Pantheon XP 2250 - 2. Satz",
+              "https://commons.wikimedia.org/wiki/File:02_Horenstein_9._Beethoven_Pantheon_XP_2250_-_2._Satz.flac"
+            ],
+            "license": [
+              "Public domain",
+              ""
+            ]
+          }
+      },
+      {
+        "name": "Ode to Joy\nSymphony No 9\nMvmt 4 Finale",
+        "wiki": "https://en.wikipedia.org/wiki/Symphony_No._9_(Beethoven)",
+        "filename": "04_Horenstein_9._Beethoven_Pantheon_XP_2550_-_4._satz.flac",
+        "url": "https://upload.wikimedia.org/wikipedia/commons/1/19/04_Horenstein_9._Beethoven_Pantheon_XP_2550_-_4._satz.flac",
+        "playat": [ [775000, 792000] ],
+        "credit":
+          {
+            "file": [
+              "04 Horenstein 9. Beethoven Pantheon XP 2550 - 4. satz",
+              "https://commons.wikimedia.org/wiki/File:04_Horenstein_9._Beethoven_Pantheon_XP_2550_-_4._satz.flac"
+            ],
+            "license": [
+              "Public domain",
+              ""
+            ]
+          }
+      }
+    ]
+  },
+  {
+    "name": "Erik Satie",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/58/Ericsatie.jpg/200px-Ericsatie.jpg",
+    "pieces": [
+      {
+        "name": "Gymnopédies",
+        "wiki": "https://en.wikipedia.org/wiki/Gymnop%C3%A9dies",
+        "filename": "Satie_Gymnopèdie_n.1_DariaBaiocchi.wav",
+        "url": "https://upload.wikimedia.org/wikipedia/commons/a/aa/Satie_Gymnop%C3%A8die_n.1_DariaBaiocchi.wav",
+        "playat": [ [0, 8000] ],
+        "credit":
+          {
+            "file": [
+              "Satie Gymnopèdie n.1 DariaBaiocchi",
+              "https://commons.wikimedia.org/wiki/File:Satie_Gymnop%C3%A8die_n.1_DariaBaiocchi.wav"
+            ],
+            "license": [
+              "CC BY-SA 4.0",
+              "https://creativecommons.org/licenses/by-sa/4.0"
+            ]
+          }
+      }
+    ]
+  },
+  {
+    "name": "Pyotr Ilyich Tchaikovsky",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/20/Tchaikovsky_by_Reutlinger_%28cropped%29.jpg/200px-Tchaikovsky_by_Reutlinger_%28cropped%29.jpg",
+    "pieces": [
+      {
+        "name": "Romeo and Juliet Overture\nLove Theme",
+        "wiki": "https://en.wikipedia.org/wiki/Romeo_and_Juliet_(Tchaikovsky)",
+        "filename": "Tchaikovsky_-_Romeo_and_Juliet_Ouverture_-_Antal_Dorati_(1959).ogg",
+        "url": "https://upload.wikimedia.org/wikipedia/commons/c/ca/Tchaikovsky_-_Romeo_and_Juliet_Ouverture_-_Antal_Dorati_%281959%29.ogg",
+        "playat": [ [806000, 820000] ],
+        "credit":
+          {
+            "file": [
+              "Tchaikovsky - Romeo and Juliet Ouverture - Antal Dorati (1959)",
+              "https://commons.wikimedia.org/wiki/File:Tchaikovsky_-_Romeo_and_Juliet_Ouverture_-_Antal_Dorati_(1959).ogg"
+            ],
+            "license": [
+              "Public domain",
+              ""
+            ]
+          }
+      },
+      {
+        "name": "Swan Lake\nAct 4 No 29\nFinale Scene",
+        "wiki": "https://en.wikipedia.org/wiki/Swan_Lake",
+        "filename": "Swan_lake_act_IV_no._29_Scene_finale.flac",
+        "url": "https://upload.wikimedia.org/wikipedia/commons/5/5b/Swan_lake_act_IV_no._29_Scene_finale.flac",
+        "playat": [ [199000, 213000] ],
+        "credit":
+          {
+            "file": [
+              "Swan lake act IV no. 29 Scene finale",
+              "https://commons.wikimedia.org/wiki/File:Swan_lake_act_IV_no._29_Scene_finale.flac"
+            ],
+            "license": [
+              "Public domain",
+              ""
+            ]
+          }
+      },
+      {
+        "name": "The Nutcracker Suite\nRussian Dance",
+        "wiki": "https://en.wikipedia.org/wiki/Trepak_(The_Nutcracker)",
+        "filename": "Tchaikovsky_-_Nutcracker_Suite_-_Russian_Dance_-_Philip_Milman_-_Lud_and_Schlatts_Musical_Emporium.wav",
+        "url": "https://upload.wikimedia.org/wikipedia/commons/7/7a/Tchaikovsky_-_Nutcracker_Suite_-_Russian_Dance_-_Philip_Milman_-_Lud_and_Schlatts_Musical_Emporium.wav",
+        "playat": [ [0, 8000] ],
+        "credit":
+          {
+            "file": [
+              "Tchaikovsky - Nutcracker Suite - Russian Dance - Philip Milman - Lud and Schlatts Musical Emporium",
+              "https://commons.wikimedia.org/wiki/File:Tchaikovsky_-_Nutcracker_Suite_-_Russian_Dance_-_Philip_Milman_-_Lud_and_Schlatts_Musical_Emporium.wav"
+            ],
+            "license": [
+              "CC BY 3.0",
+              "https://creativecommons.org/licenses/by/3.0"
+            ]
+          }
+      }
+    ]
+  },
+  {
+    "name": "Gustav Mahler",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/06/Photo_of_Gustav_Mahler_by_Moritz_N%C3%A4hr_01.jpg/200px-Photo_of_Gustav_Mahler_by_Moritz_N%C3%A4hr_01.jpg",
+    "pieces": [
+      {
+        "name": "Symphony No 5\nMvmt 4 Adagietto",
+        "wiki": "https://en.wikipedia.org/wiki/Symphony_No._5_(Mahler)",
+        "filename": "Mahler_Symphony_No._5,_IV._Adagietto.ogg",
+        "url": "https://upload.wikimedia.org/wikipedia/commons/b/b2/Mahler_Symphony_No._5%2C_IV._Adagietto.ogg",
+        "playat": [ [75000, 120000] ],
+        "credit":
+          {
+            "file": [
+              "Mahler Symphony No. 5, IV. Adagietto",
+              "https://commons.wikimedia.org/wiki/File:Mahler_Symphony_No._5,_IV._Adagietto.ogg"
+            ],
+            "license": [
+              "CC0",
+              "http://creativecommons.org/publicdomain/zero/1.0/deed.en"
+            ]
+          }
+      },
+      {
+        "name": "Symphony No 1\nMvmt 3 Hunters Funeral",
+        "wiki": "https://en.wikipedia.org/wiki/Symphony_No._1_(Mahler)",
+        "filename": "Mahler_Symphony1_Movement3_VPO.oga",
+        "url": "https://upload.wikimedia.org/wikipedia/commons/9/9d/Mahler_Symphony1_Movement3_VPO.oga",
+        "playat": [ [50000, 71000] ],
+        "credit":
+          {
+            "file": [
+              "Mahler Symphony1 Movement3 VPO",
+              "https://commons.wikimedia.org/wiki/File:Mahler_Symphony1_Movement3_VPO.oga"
+            ],
+            "license": [
+              "CC BY-SA 4.0",
+              "https://creativecommons.org/licenses/by-sa/4.0"
+            ]
+          }
+      }
+    ]
+  },
+  {
+    "name": "Edward Elgar",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/ce/Edward_Elgar.jpg/200px-Edward_Elgar.jpg",
+    "pieces": [
+      {
+        "name": "Enigma Variations\nTheme Nimrod",
+        "wiki": "https://en.wikipedia.org/wiki/Enigma_Variations",
+        "filename": "Elgar;_Enigma_variations,_Theme_IX._Nimrod.ogg",
+        "url": "https://upload.wikimedia.org/wikipedia/commons/e/e7/Elgar%3B_Enigma_variations%2C_Theme_IX._Nimrod.ogg",
+        "playat": [ [0, 8000] ],
+        "credit":
+          {
+            "file": [
+              "Elgar; Enigma variations, Theme IX. Nimrod",
+              "https://commons.wikimedia.org/wiki/File:Elgar;_Enigma_variations,_Theme_IX._Nimrod.ogg"
+            ],
+            "license": [
+              "Public domain",
+              ""
+            ]
+          }
+      },
+      {
+        "name": "Pomp and Circumstance Marches",
+        "wiki": "https://en.wikipedia.org/wiki/Pomp_and_Circumstance_Marches",
+        "filename": "ELGAR_Pomp_and_Circumstance_in_D,_Opus_39,_No._1_-_United_States_Marine_Band.mp3",
+        "url": "https://upload.wikimedia.org/wikipedia/commons/2/28/ELGAR_Pomp_and_Circumstance_in_D%2C_Opus_39%2C_No._1_-_United_States_Marine_Band.mp3",
+        "playat": [ [150500, 166000] ] ,
+        "credit":
+          {
+            "file": [
+              "ELGAR Pomp and Circumstance in D, Opus 39, No. 1 - United States Marine Band",
+              "https://commons.wikimedia.org/wiki/File:ELGAR_Pomp_and_Circumstance_in_D,_Opus_39,_No._1_-_United_States_Marine_Band.mp3"
+            ],
+            "license": [
+              "Public domain",
+              ""
+            ]
+          }
+      }
+    ]
+  },
+  {
+    "name": "Jacques Offenbach",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c1/Jacques_Offenbach_by_Nadar.jpg/200px-Jacques_Offenbach_by_Nadar.jpg",
+    "pieces": [
+      {
+        "name": "Orpheus in the Underworld\nCan Can",
+        "wiki": "https://en.wikipedia.org/wiki/Orpheus_in_the_Underworld",
+        "filename": "Offenbach_-_Orpheus_in_the_Underworld_-_Overture,_Can_Can_section.ogg",
+        "url": "https://upload.wikimedia.org/wikipedia/commons/6/63/Offenbach_-_Orpheus_in_the_Underworld_-_Overture%2C_Can_Can_section.ogg",
+        "playat": [ [67000, 77000] ],
+        "credit":
+          {
+            "file": [
+              "Offenbach - Orpheus in the Underworld - Overture, Can Can section",
+              "https://commons.wikimedia.org/wiki/File:Offenbach_-_Orpheus_in_the_Underworld_-_Overture,_Can_Can_section.ogg"
+            ],
+            "license": [
+              "Public Domain",
+              "https://web.archive.org/web/20230926203737/https://creativecommons.org/licenses/publicdomain/"
+            ]
+          }
+      }
+    ]
+  },
+  {
+    "name": "Vittorio Monti",
+    "image": "https://upload.wikimedia.org/wikipedia/en/4/42/VittorioMontiImage.jpg",
+    "pieces": [
+      {
+        "name": "Czardas",
+        "wiki": "https://en.wikipedia.org/wiki/Cs%C3%A1rd%C3%A1s_(Monti)",
+        "filename": "USAFB_Czardas.ogg",
+        "url": "https://upload.wikimedia.org/wikipedia/commons/2/27/USAFB_Czardas.ogg",
+        "playat": [ [60000, 75000] ],
+        "credit":
+          {
+            "file": [
+              "USAFB Czardas",
+              "https://commons.wikimedia.org/wiki/File:USAFB_Czardas.ogg"
+            ],
+            "license": [
+              "Public domain",
+              ""
+            ]
+          }
+      }
+    ]
+  },
+  {
+    "name": "Johannes Brahms",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/15/JohannesBrahms.jpg/200px-JohannesBrahms.jpg",
+    "pieces": [
+      {
+        "name": "Hungarian Dance No 5",
+        "wiki": "https://en.wikipedia.org/wiki/Hungarian_Dances_(Brahms)",
+        "filename": "Johannes_Brahms_-_Ungarischer_Tanz_5_g-moll.ogg",
+        "url": "https://upload.wikimedia.org/wikipedia/commons/d/d8/Johannes_Brahms_-_Ungarischer_Tanz_5_g-moll.ogg",
+        "playat": [ [0, 8000] ],
+        "credit":
+          {
+            "file": [
+              "Johannes Brahms - Ungarischer Tanz 5 g-moll",
+              "https://commons.wikimedia.org/wiki/File:Johannes_Brahms_-_Ungarischer_Tanz_5_g-moll.ogg"
+            ],
+            "license": [
+              "EEF OAL-1",
+              "https://imslp.org/wiki/IMSLP:EFF_Open_Audio_License"
+            ]
+          }
+      }
+    ]
+  },
+  {
+    "name": "Johann Sebastian Bach",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6a/Johann_Sebastian_Bach.jpg/200px-Johann_Sebastian_Bach.jpg",
+    "pieces": [
+      {
+        "name": "Goldberg Variations Aria",
+        "wiki": "https://en.wikipedia.org/wiki/Goldberg_Variations",
+        "filename": "Goldberg_Variations_01_Aria.ogg",
+        "url": "https://upload.wikimedia.org/wikipedia/commons/4/42/Goldberg_Variations_01_Aria.ogg",
+        "playat": [ [0, 9000] ],
+        "credit":
+          {
+            "file": [
+              "Goldberg Variations 01 Aria",
+              "https://commons.wikimedia.org/wiki/File:Goldberg_Variations_01_Aria.ogg"
+            ],
+            "license": [
+              "Public domain",
+              ""
+            ]
+          }
+      }
+    ]
+  },
+  {
+    "name": "Niccolò Paganini",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/cf/Paganini.jpeg/200px-Paganini.jpeg",
+    "pieces": [
+      {
+        "name": "Caprice No 24",
+        "wiki": "https://en.wikipedia.org/wiki/Caprice_No._24_(Paganini)",
+        "filename": "Paganini_Caprice-24.ogg",
+        "url": "https://upload.wikimedia.org/wikipedia/commons/1/17/Paganini_Caprice-24.ogg",
+        "playat": [ [0, 8500] ],
+        "credit":
+          {
+            "file": [
+              "Paganini Caprice-24",
+              "https://commons.wikimedia.org/wiki/File:Paganini_Caprice-24.ogg"
+            ],
+            "license": [
+              "Public domain",
+              ""
+            ]
+          }
+      }
+    ]
+  },
+  {
+    "name": "Maurice Ravel",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/78/Maurice_Ravel_1925.jpg/200px-Maurice_Ravel_1925.jpg",
+    "pieces": [
+      {
+        "name": "Boléro",
+        "wiki": "https://en.wikipedia.org/wiki/Bol%C3%A9ro",
+        "filename": "Bolero-Maurice_Ravel-Paris_Orchestra-Charles_Munch-1956.ogg",
+        "url": "https://upload.wikimedia.org/wikipedia/commons/a/a9/Bolero-Maurice_Ravel-Paris_Orchestra-Charles_Munch-1956.ogg",
+        "playat": [ [800000, 820000] ] ,
+        "credit":
+          {
+            "file": [
+              "Bolero-Maurice Ravel-Paris Orchestra-Charles Munch-1956",
+              "https://commons.wikimedia.org/wiki/File:Bolero-Maurice_Ravel-Paris_Orchestra-Charles_Munch-1956.ogg"
+            ],
+            "license": [
+              "Public domain",
+              ""
+            ]
+          }
+      }
+    ]
+  },
+  {
+    "name": "Gustav Holst",
+    "image": "https://upload.wikimedia.org/wikipedia/en/thumb/f/f6/Gustav-Holst-1921.jpg/200px-Gustav-Holst-1921.jpg",
+    "pieces": [
+      {
+        "name": "The Planets Jupiter",
+        "wiki": "https://en.wikipedia.org/wiki/The_Planets",
+        "filename": "Holst_The_Planets_Jupiter.ogg",
+        "url": "https://upload.wikimedia.org/wikipedia/commons/e/e2/Holst_The_Planets_Jupiter.ogg",
+        "playat": [ [118000, 130000] ] ,
+        "credit":
+          {
+            "file": [
+              "Holst The Planets Jupiter",
+              "https://commons.wikimedia.org/wiki/File:Holst_The_Planets_Jupiter.ogg"
+            ],
+            "license": [
+              "Public domain",
+              ""
+            ]
+          }
+      }
+    ]
+  },
+  {
+    "name": "Bedřich Smetana",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/13/Smetana_LCCN2014716851_%28cropped%29.jpg/200px-Smetana_LCCN2014716851_%28cropped%29.jpg",
+    "pieces": [
+      {
+        "name": "The Moldau",
+        "wiki": "https://en.wikipedia.org/wiki/M%C3%A1_vlast#Vltava",
+        "filename": "Smetana,_Má_vlast_-_Vltava_-_The_Moldau.ogg",
+        "url": "https://upload.wikimedia.org/wikipedia/commons/3/39/Smetana%2C_M%C3%A1_vlast_-_Vltava_-_The_Moldau.ogg",
+        "playat": [ [75000, 87000] ],
+        "credit":
+          {
+            "file": [
+              "Smetana, Má vlast - Vltava - The Moldau",
+              "https://commons.wikimedia.org/wiki/File:Smetana,_M%C3%A1_vlast_-_Vltava_-_The_Moldau.ogg"
+            ],
+            "license": [
+              "CC0",
+              "http://creativecommons.org/publicdomain/zero/1.0/deed.en"
+            ]
+          }
+      }
+    ]
+  },
+  {
+    "name": "Felix Mendelssohn",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/38/Felix_Mendelssohn_Bartholdy.jpg/200px-Felix_Mendelssohn_Bartholdy.jpg",
+    "pieces": [
+      {
+        "name": "Wedding March",
+        "wiki": "https://en.wikipedia.org/wiki/Wedding_March_(Mendelssohn)",
+        "filename": "A_Midsummer_Night's_Dream_Op._61_Wedding_March_(Mendelssohn)_European_Archive.ogg",
+        "url": "https://upload.wikimedia.org/wikipedia/commons/c/cb/A_Midsummer_Night%27s_Dream_Op._61_Wedding_March_%28Mendelssohn%29_European_Archive.ogg",
+        "playat": [ [5000, 17000] ],
+        "credit":
+          {
+            "file": [
+              "A Midsummer Night's Dream Op. 61 Wedding March (Mendelssohn) European Archive",
+              "https://commons.wikimedia.org/wiki/File:A_Midsummer_Night%27s_Dream_Op._61_Wedding_March_(Mendelssohn)_European_Archive.ogg"
+            ],
+            "license": [
+              "Public domain",
+              ""
+            ]
+          }
+      }
+    ]
+  },
+  {
+    "name": "Richard Wagner",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9d/RichardWagner.jpg/200px-RichardWagner.jpg",
+    "pieces": [
+      {
+        "name": "Bridal Chorus",
+        "wiki": "https://en.wikipedia.org/wiki/Bridal_Chorus",
+        "filename": "Richard_Wagner_-_Treulich_geführt,_version_2.ogg",
+        "url": "https://upload.wikimedia.org/wikipedia/commons/2/29/Richard_Wagner_-_Treulich_gef%C3%BChrt%2C_version_2.ogg",
+        "playat": [ [0, 12000] ],
+        "credit":
+          {
+            "file": [
+              "Richard Wagner - Treulich geführt, version 2",
+              "https://commons.wikimedia.org/wiki/File:Richard_Wagner_-_Treulich_gef%C3%BChrt,_version_2.ogg"
+            ],
+            "license": [
+              "CC0",
+              "http://creativecommons.org/publicdomain/zero/1.0/deed.en"
+            ]
+          }
+      },
+      {
+        "name": "Ride of the Valkyries",
+        "wiki": "https://en.wikipedia.org/wiki/Ride_of_the_Valkyries",
+        "filename": "Ride_of_the_Valkyries.ogg",
+        "url": "https://upload.wikimedia.org/wikipedia/commons/9/91/Ride_of_the_Valkyries.ogg",
+        "playat": [ [20000, 30000] ],
+        "credit":
+          {
+            "file": [
+              "Ride of the Valkyries",
+              "https://commons.wikimedia.org/wiki/File:Ride_of_the_Valkyries.ogg"
+            ],
+            "license": [
+              "CC BY 3.0",
+              "https://creativecommons.org/licenses/by/3.0"
+            ]
+          }
+      }
+    ]
+  }
+]

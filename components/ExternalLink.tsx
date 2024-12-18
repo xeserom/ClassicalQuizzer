@@ -1,24 +1,53 @@
-import { Link } from 'expo-router';
+import { Pressable } from 'react-native';
 import { openBrowserAsync } from 'expo-web-browser';
-import { type ComponentProps } from 'react';
 import { Platform } from 'react-native';
 
-type Props = Omit<ComponentProps<typeof Link>, 'href'> & { href: string };
+type ExternalLinkProps = { 
+  href: string;
+  children: React.ReactNode;
+};
 
-export function ExternalLink({ href, ...rest }: Props) {
-  return (
-    <Link
-      target="_blank"
-      {...rest}
-      href={href}
-      onPress={async (event) => {
-        if (Platform.OS !== 'web') {
-          // Prevent the default behavior of linking to the default browser on native.
-          event.preventDefault();
-          // Open the link in an in-app browser.
-          await openBrowserAsync(href);
-        }
-      }}
-    />
+export default function ExternalLink({ href, children }: ExternalLinkProps) {
+  const handlePress = async () => await openBrowserAsync(href);
+
+  return (Platform.OS === 'web' ?
+    <a target='_blank' href={href} style={{width: '100%', textDecorationLine: 'none'}}>
+      {children}
+    </a>
+    :
+    <Pressable onPress={handlePress}>
+      {children}
+    </Pressable>
   );
 }
+
+
+// import { Pressable, View, Text } from 'react-native';
+// import { openBrowserAsync } from 'expo-web-browser';
+// import { Platform } from 'react-native';
+
+// type ExternalLinkProps = { 
+//   href: string;
+//   text: string;
+// };
+
+// export default function ExternalLink({href, text}: ExternalLinkProps) {
+//   const handlePress = async () => await openBrowserAsync(href);
+
+//   return (Platform.OS === 'web' ?
+//     <View style={{flex: 1}}>
+//       <Text numberOfLines={1} ellipsizeMode='tail'>
+//         <a target='_blank' href={href} style={{width: '100%', textDecorationLine: 'none'}}>
+//           {text}
+//         </a>
+//       </Text>
+//     </View>
+//     :
+//     <Pressable onPress={handlePress}>
+//       {/* {children} */}
+//       <Text>
+//         {text}
+//       </Text>
+//     </Pressable>
+//   );
+// }
