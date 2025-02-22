@@ -718,13 +718,15 @@ export default function Game() {
     useRef(new Animated.Value(0)).current,
     useRef(new Animated.Value(0)).current,
   ];
-
+b
   const [isModalVisible, setIsModalVisible] = useState(true);
   const [isSwapped, setIsSwapped] = useState(false);
 
   const handleSwap = () => {
     setIsSwapped(!isSwapped);
   };
+
+  document.title = 'Classical Quizzer';
 
   return (
     <SafeAreaView style={styles.container}>
@@ -786,9 +788,9 @@ export default function Game() {
                 maxWidth: 400,
                 gap: 5,
               }}>
-              <Text style={{fontWeight: 'bold', fontSize: 32}}>Clip Quiz</Text>
+              <Text style={{fontWeight: 'bold', fontSize: 32}}>Classical Quizzer</Text>
               <Text style={{fontSize: 20, marginBottom: 25, width: '75%', textAlign: 'center'}}>
-                Guess the composer from an audio clip.
+                Guess the composer that composed the music.
               </Text>
               <Button title='Play' onPress={() => setIsModalVisible(false)}/>
               {/* <Button title='Credits' onPress={handleSwap}/> */}
